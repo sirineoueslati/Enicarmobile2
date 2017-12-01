@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_actualité"
+            android:icon="@drawable/ic_action_home"
+            android:title="Actualités" />
+        <item
+            android:id="@+id/nav_Formation"
+            android:icon="@drawable/ic_action_formation"
+            android:title="Formation" />
+        <item
+            android:id="@+id/nav_evenement"
+            android:icon="@drawable/ic_action_evenement"
+            android:title="Evenement" />
+        <item
+            android:id="@+id/nav_localisation"
+            android:icon="@drawable/ic_action_itineraire"
+            android:title="Localisation" />
+    </group>
+
+</menu>
